@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-recap"
+version = "0.1.0"
+description = "Recaps for Python - Design and Algorithms, Frameworks and documentation, Tests"
+authors = ["dotunpeters <oyelakindotun@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10.10"
+celery = "^5.3.1"
+pylint = "^2.17.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
