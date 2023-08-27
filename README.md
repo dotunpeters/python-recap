@@ -1,6 +1,6 @@
 # python-recap
 
-[![Python Version](https://img.shields.io/badge/python-3.10.2-blue)](https://www.python.org/downloads/release/python-3102/)
+[![Python Version](https://img.shields.io/badge/python-3.10.10-blue)](https://www.python.org/downloads/release/python-3102/)
 [![Celery Version](https://img.shields.io/badge/celery-5.3.1-brightgreen)](https://pypi.org/project/celery/5.3.1/)
 [![Pylint Version](https://img.shields.io/badge/pylint-2.17.5-yellow)](https://pypi.org/project/pylint/2.17.5/)
 
