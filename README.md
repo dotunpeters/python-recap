@@ -36,4 +36,4 @@ Contributions, issues, and feature requests are welcome!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-Feel free to check the [issues page](#) (link to your issues page if you have one).
+Feel free to check the [issues page](/#) (link to your issues page if you have one).
