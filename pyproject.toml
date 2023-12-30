@@ -5,13 +5,16 @@ description = "Recaps for Python - Design and Algorithms, Frameworks and documen
 authors = ["dotunpeters <oyelakindotun@gmail.com>"]
 readme = "README.md"
 
+[tool.poetry.scripts]
+is_prime = "python_recap.is_prime:is_prime"
+is_perfect = "python_recap.is_perfect:is_perfect"
 
 [tool.poetry.dependencies]
 python = "^3.10.2"
 celery = "^5.3.4"
-pylint = "^3.0.1"
+pylint = "3.0.2"
 parse = "^1.19.1"
-
+mypy = "1.6.1"
 
 [build-system]
 requires = ["poetry-core"]

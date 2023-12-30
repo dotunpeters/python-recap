@@ -3,12 +3,12 @@ from typing import Sequence
 
 
 def headline(text: str, is_align: bool = False) -> str:
-    """ headline """
+    """headline"""
     return text.title() if is_align else text.title().center(len(text) * 2, "x")
 
 
 def get_first_element(data: Sequence[int]) -> int:
-    """ get_first_element """
+    """get_first_element"""
     return data[0]
 
 
