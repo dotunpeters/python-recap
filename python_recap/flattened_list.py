@@ -1,9 +1,7 @@
 from typing import List, Any
 
 
-def flatten_list(lst: list[Any], result=None) -> list[int | str]:
-    if result is None:
-        result = []
+def flatten_list(lst: list[Any], result=list()) -> list[int | str]:
     for each in lst:
         if isinstance(each, list):
             flatten_list(each)
