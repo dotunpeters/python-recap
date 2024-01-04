@@ -8,13 +8,18 @@ readme = "README.md"
 [tool.poetry.scripts]
 is_prime = "python_recap.is_prime:is_prime"
 is_perfect = "python_recap.is_perfect:is_perfect"
+exercise = "python_recap.exercise:main"
+multiple_list = "python_recap.exercise:multiple_list"
+create_lists_linear = "python_recap.exercise:create_lists_linear"
+recurse = "python_recap.recursion:main"
+fibo = "python_recap.fibonacci:main"
 
 [tool.poetry.dependencies]
 python = "^3.10.2"
 celery = "^5.3.4"
-pylint = "3.0.2"
+pylint = "3.0.3"
 parse = "^1.19.1"
-mypy = "1.6.1"
+mypy = "1.8.0"
 
 [build-system]
 requires = ["poetry-core"]
